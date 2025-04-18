@@ -10,6 +10,7 @@
 
 # Misc
 /blog
+/.nginx
 .DS_Store
 .env.local
 .env.development.local

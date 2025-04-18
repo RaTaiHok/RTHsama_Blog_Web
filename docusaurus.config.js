@@ -81,7 +81,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/blog', label: '笔记本', position: 'left' },
+          { to: '/blog', label: '记事本', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -91,7 +91,7 @@ const config = {
 
           {
             href: 'https://github.com/RaTaiHok',
-            label: 'MyGitHub',
+            label: '我的GitHub主页',
             position: 'right',
           },
         ],
