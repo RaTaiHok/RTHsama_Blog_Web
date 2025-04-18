@@ -3,8 +3,6 @@
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
-const isProd = process.env.NODE_ENV === 'production';
-const cloudflareToken = process.env.CLOUDFLARE_TOKEN;
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -49,7 +47,7 @@ const config = {
 
         },
         blog: {
-          blogSidebarTitle: '最近有什么呢',
+          blogSidebarTitle: '札记',
           blogSidebarCount: 10,
           showReadingTime: true,
 
@@ -110,7 +108,7 @@ const config = {
               },
               {
                 label: '雨音的QQ',
-                to: 'https://qm.qq.com/q/h3dN7vJqkU',
+                href: 'https://qm.qq.com/q/h3dN7vJqkU',
               },
               {
                 label: 'RTH的Bilibili主页',
@@ -121,6 +119,10 @@ const config = {
           {
             title: '友情链接',
             items: [
+              {
+                label: '户山兔兔的个人blog',
+                href: 'https://danieltoyama.fun/',
+              },
             ],
           },
           {
