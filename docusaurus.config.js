@@ -111,7 +111,7 @@ const config = {
                 href: 'https://qm.qq.com/q/h3dN7vJqkU',
               },
               {
-                label: 'RTH的Bilibili主页',
+                label: '雨音的Bilibili主页',
                 href: 'https://space.bilibili.com/1333478733',
               },
             ],

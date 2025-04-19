@@ -79,6 +79,22 @@ div#index-page-button-container {
     align-items: center;
 }
 
+.button--secondary {
+    background-color: rgb(252, 190, 219);
+    border-color: rgb(252, 190, 219);
+    color: rgb(255, 124, 224) !important;
+    text-shadow: 
+        -1px -1px 0 #ffffff,  
+        1px -1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff !important;
+}
+
+.button--secondary:hover {
+    background-color: rgb(255, 210, 231);
+    border-color: rgb(255, 210, 231);
+}
+
 @media screen and (max-width:576px) {
     div#index-page-main #logo {
         font-size: 60px;
